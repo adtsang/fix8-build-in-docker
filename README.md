@@ -14,11 +14,14 @@ download fix8-1.4.0.tar.gz to the same directory
 
 ## FIX8 build
 ### Untar the FIX8 source code inside the docker container
+```
 tar xvfz fix8-1.4.0.tar.gz
-
+```
 ### Build FIX8 inside the docker container
+```
 cd fix8-1.4.0
 autoreconf -i
 ./configure
 make
 make install
+```
