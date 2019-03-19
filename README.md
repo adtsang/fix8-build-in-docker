@@ -7,10 +7,13 @@ Install docker on your machine as we will build a docker image to run Ubuntu 16.
 
 ## Download FIX8 source code and example
 http://www.fix8.org/downloads.html
+
 download fix8-1.4.0.tar.gz to the same directory
 
 ## Create the build docker image and container by running the following command
+```
 ./startFix8BuildDockerContainer.sh
+```
 
 ## FIX8 build
 ### Untar the FIX8 source code inside the docker container
