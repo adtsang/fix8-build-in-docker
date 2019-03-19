@@ -1,0 +1,14 @@
+#
+# (c) Copyright Branding China Group Ltd 2019. All rights reserved. No part of
+# this program may be photocopied reproduced or translated to another
+# program language without prior written consent of Branding China Group Ltd.
+#
+
+version: '3.6'
+services:
+    fix8-build-host:
+        container_name: fix8-build-host
+        image: fix8-build-ub16os
+        volumes:
+          - .:/home/docker/fix8-build
+
